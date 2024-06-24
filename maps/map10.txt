@@ -1,0 +1,15 @@
+m 0 0 b t 0 0 0 t 0 0 0 0 0 t 
+m 0 t t t 0 t 0 t 0 t t t 0 t 
+m 0 0 v t 0 t 0 t b t t 0 0 t 
+m 0 0 0 t b t 0 t t t 0 0 0 t 
+m 0 0 0 t t t 0 t 0 0 0 0 0 0 
+m 0 0 0 0 0 0 0 0 0 0 0 0 0 h 
+m 0 0 0 m m m m m 0 0 0 0 0 t 
+m 0 0 0 0 0 0 b m 0 0 0 0 0 t 
+m h 0 0 0 0 0 0 0 0 0 0 t 0 t 
+t t t 0 t 0 m m m 0 0 0 t y t 
+t b t 0 t 0 0 0 m 0 0 0 t t t 
+t 0 t 0 t t t 0 0 0 0 0 0 0 0 
+t 0 t 0 0 0 t 0 0 0 0 0 0 m 0 
+t 0 t t t 0 t t 0 0 0 0 m m 0 
+t 0 0 0 0 0 t t t 0 0 v m b 0
