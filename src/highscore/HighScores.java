@@ -29,7 +29,7 @@ public class HighScores {
         connectionProps.put("user", "root");
         connectionProps.put("password", "admin");
         connectionProps.put("serverTimezone", "UTC");
-        String dbURL = "jdbc:mysql://localhost:3306/highscores";
+        String dbURL = "jdbc:mysql://localhost:3306/highscore";
         connection = DriverManager.getConnection(dbURL, connectionProps);
 
         String insertQuery = "INSERT INTO HIGHSCORES (TIMESTAMP, NAME, SCORE) VALUES (?, ?, ?)";
@@ -70,7 +70,7 @@ public class HighScores {
         if (highScores.size() < maxScores) {
             insertScore(name, score);
         } else {
-            int leastScore = highScores.get(highScores.size() - 1).score();
+            int leastScore = highScores.getLast().score();
             if (leastScore < score) {
                 deleteScores(leastScore);
                 insertScore(name, score);
